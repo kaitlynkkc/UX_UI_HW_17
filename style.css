@@ -1,8 +1,40 @@
-/*body {
+/* General */
+:root{
+    --cream: #FAF5EF;
+    --light-yellow: #FFECC6;
+    --yellow: #FED480;
+    --red: #EC7C6A;
+    --green: #00715D;
+    --blue: #01426A;
+    --black: #1E1E1E;
+}
+body {
+    background-color: var(--cream);
+    color: var(--black);
     font-family: 'Poppins', sans-serif;
-}*/
-
-.team {
-    background-image: url("images/wave\ background.svg");
-    background-repeat: no-repeat;
+    font-weight: 500;
+    margin: 0 50px;
+}
+.inline-block {
+    display: inline-block;
+}
+/* Header Section */
+header {
+    border: 1px solid red;
+}
+.tabs {
+    list-style: none;
+}
+/* Footer */
+footer {
+    border: 1px solid red;
+}
+footer button {
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }

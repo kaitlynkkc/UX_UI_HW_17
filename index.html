@@ -12,7 +12,7 @@
                 <img src="images/logo.png" alt="The IOU Foundation Logo">
             </div>
             <nav class="inline-block">
-                <ul>
+                <ul class="tabs">
                     <li>About Us</li>
                     <li>Support Us</li>
                     <li>News & Events</li>
@@ -21,85 +21,46 @@
                 </ul>
             </nav>
         </header>
-        <!-- Hero Section -->
-        <section class="hero">
-            <img src="images/people.png" alt="illustration of a group of people">
-            <div class="content">
-                <h1>What We Do</h1>
-                <p>The IOU Foundation® 501(c)(3) public charity non-profit organization raises funds from the general public through a variety of ways, including special events, barbecue cook-offs, sponsorships, and donations.</p>
-                <h3>Our Mission</h3>
-               <p>We strive to strengthen communities, cultivate philanthropy, emulate and inspire positive leadership and foster respect for all.</p>
-            </div>
-        </section>
-        <!-- Meet the Team Section -->
-        <section class="team">
-            <h2>Meet the Team</h2>
-                <ul>
-                    <div class="team-card">
-                        <img src="images/president.png" alt="Photo of [Insert team member name]">
-                        <h3>President</h3>
-                        <p>Shane Sobon</p>
-                        <p>Director Since 2013</p>
-                    </div>
-                    <div class="team-card">
-                        <img src="images/treasurer.png" alt="Photo of [Insert team member name]">
-                        <h3>Treasurer</h3>
-                        <p>Jeff Hewitt</p>
-                        <p>Director Since 2013</p>
-                    </div>
-                    <div class="team-card">
-                        <img src="images/secretary.png" alt="Photo of [Insert team member name]">
-                        <h3>Secretary</h3>
-                        <p>Sabrina Butler</p>
-                        <p>Director Since 2016</p>
-                    </div>
-                    <div class="team-card">
-                        <img src="images/fundraising coordinator.png" alt="Photo of [Insert team member name]">
-                        <h3>Fundraising</h3>
-                        <p>Karen Evon</p>
-                        <p>Director Since 2018</p>
-                    </div>
-                </ul>
-        </section>
-        <!-- Charities We Support Section -->
-        <section class="support">
-            <h2>Charities We Support</h2>
-                <button><img src="images/left button.png" alt="left button"></button>
-                <div class="charities">
-                    <img src="images/charity 1.png" alt="Charity Name Logo">
-                    <img src="images/charity 2.png" alt="Charity Name Logo">
-                    <img src="images/charity 3.png" alt="Charity Name Logo">
-                    <img src="images/charity 4.png" alt="Charity Name Logo">
-                    <img src="images/charity 5.png" alt="Charity Name Logo">
-                    <img src="images/charity 6.png" alt="Charity Name Logo">
-                    <img src="images/charity 7.png" alt="Charity Name Logo">
-                    <img src="images/charity 8.png" alt="Charity Name Logo">
-                    <img src="images/charity 9.png" alt="Charity Name Logo">
-                    <img src="images/charity 10.png" alt="Charity Name Logo">
-                </div>
-                <button><img src="images/right button.png" alt="right button"></button>
-                <img src="images/paginator.png" alt="pagination">
+        <!-- Main Contact Form Section -->
+        <section class="contact-form">
+            <h1>Leave us a note!</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Name" required><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <input type="radio" id="volunteer" name="reason" value="Volunteer Inquiry">
+                <label for="volunteer">Volunteer Inquiry</label><br>
+                <input type="radio" id="donation" name="reason" value="Donation Inquiry">
+                <label for="donation">Donation Inquiry</label><br>
+                <input type="radio" id="sponsorship" name="reason" value="Sponsorship Inquiry">
+                <label for="sponsorship">Sponsorship Inquiry</label><br>
+                <input type="radio" id="catering" name="reason" value="Catering Inquiry">
+                <label for="catering">Catering Inquiry</label><br>
+                <input type="radio" id="other" name="reason" value="Other">
+                <label for="other">Other</label><br>
+                <input type="text" id="comment" name="comment" placeholder="Add comment"><br>
+                <input type="submit">
+            </form>
         </section>
         <!-- Footer Section -->
         <footer>
-            <div>
+            <div class="contact inline-block">
                 <button>Contact Us</button>
                 <p>PO Box 4183 Cedar Park, Texas 78630</p>
                 <p><strong>info@theioufoundation.org</strong></p>
             </div>
-            <div>
+            <div class="gen inline-block">
                 <h4>The IOU Foundation</h4>
                 <ul>
-                <li><img src="images/facebook.png" alt="Social Media"></li>
-                <li><img src="images/youtube.png" alt="Social Media"></li>
-                <li><img src="images/instagram.png" alt="Social Media"></li>
+                    <li><img src="images/facebook.png" alt="Social Media"></li>
+                    <li><img src="images/youtube.png" alt="Social Media"></li>
+                    <li><img src="images/instagram.png" alt="Social Media"></li>
                 </ul>
                 <p>The IOU Foundation is a Registered Trademark of The IOU Foundation 501(c)(3). All Rights Reserved.</p>
             </div>
-            <div>
-                <button>Donate</button>
-                <button>Sponsor</button>
-                <button>Volunteer</button>
+            <div class="action-buttons inline-block">
+                <button>Donate</button><br>
+                <button>Sponsor</button><br>
+                <button>Volunteer</button><br>
             </div>
         </footer>
     </body>
